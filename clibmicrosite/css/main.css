@@ -632,14 +632,21 @@ input {
 }
 
 .card-4 .card-body {
-  padding-top: 25px;
+  padding-top: 15px;
   padding: 97px 75px;
-  padding-bottom: 95px;
-  margin-left:auto;
+  padding-bottom: 25px;
+}
+.img-container {
+       text-align: center;
+       padding-top: 50px;
 }
 
-@media (max-width: 969px) {
+@media (max-width:500px) {
   .card-4 .card-body {
-    padding: 100px 80px;
+    padding: 10px 80px;
   }
+  .responsive {
+  width: 100%;
+  height: auto;
+}
 }
